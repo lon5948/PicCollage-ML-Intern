@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "piccollage-ml-intern"
+version = "0.1.0"
+description = ""
+authors = ["lon5948 <a0988282303@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+opencv-python = "^4.9.0.80"
+tqdm = "^4.66.2"
+torch = "^2.2.2"
+scikit-learn = "^1.4.1.post1"
+torchvision = "^0.17.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
